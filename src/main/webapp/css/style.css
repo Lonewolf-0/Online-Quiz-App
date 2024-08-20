@@ -1,0 +1,110 @@
+@charset "ISO-8859-1";
+/*user-login.jsp*/
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);;
+}
+main{
+    max-width: 1400px;
+    margin: auto;
+}
+.login-page-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+}
+.heading-item{
+    color: rgb(255, 191, 0);
+    font-size: 50px;
+}
+.login-item{
+    width: 35%;
+    height: 70%;
+    border-radius: 5%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgb(244, 242, 237);
+}
+.login-item h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.register-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+.register-link:hover {
+    text-decoration: underline;
+}
+
+/* home.jsp */
+.logout-button{
+    display: flex;
+    justify-content: end;
+}
+.user-name{
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+
+/*gk quiz */
+#timer{
+	margin-left: 80%;
+	width: 5%;
+}
+
+/* result */
+.result {
+	margin-top: 5%;
+	width: 80%;
+	border-radius: 2%;
+	padding: 3%;
+    background-color: white;
+}
